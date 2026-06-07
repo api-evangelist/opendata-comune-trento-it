@@ -1,0 +1,58 @@
+aid: opendata-comune-trento-it
+name: Trento Open Data
+description: >-
+  Trento Open Data is a municipal government open-data portal for Italy running CKAN.
+  It exposes the CKAN catalog API over approximately 0 datasets.
+kind: government
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/opendata-comune-trento-it/refs/heads/main/apis.yml
+tags:
+  - Open Data
+  - CKAN
+  - Data Catalog
+  - DCAT
+  - Government Data
+  - Municipal Government
+  - Italy
+created: '2026-06-07'
+modified: '2026-06-07'
+specificationVersion: '0.19'
+apis:
+  - aid: opendata-comune-trento-it:catalog
+    name: Trento Open Data CKAN Action API
+    description: >-
+      CKAN Action API for Trento Open Data, ~0 datasets. Base URL https://opendata.comune.trento.it/api/3/action/.
+    humanURL: https://opendata.comune.trento.it
+    baseURL: https://opendata.comune.trento.it/api/3/action
+    tags:
+      - CKAN
+      - Action API
+      - Open Data
+      - Catalog
+      - REST
+      - JSON
+    properties:
+      - type: Documentation
+        url: https://docs.ckan.org/en/latest/api/
+      - type: Website
+        url: https://opendata.comune.trento.it
+      - type: x-api-endpoint
+        url: https://opendata.comune.trento.it/api/3/action/status_show
+      - type: x-ckan-version
+        value: '2.11.0a0'
+common:
+  - type: Website
+    url: https://opendata.comune.trento.it
+  - type: Documentation
+    url: https://docs.ckan.org/en/latest/api/
+  - type: Plans
+    url: plans/opendata-comune-trento-it-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/opendata-comune-trento-it-rate-limits.yml
+  - type: FinOps
+    url: finops/opendata-comune-trento-it-finops.yml
+  - type: Review
+    url: review.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
