@@ -41,6 +41,8 @@ apis:
       - type: x-ckan-version
         value: '2.11.0a0'
 common:
+  - type: DomainSecurity
+    url: security/opendata-comune-trento-it-domain-security.yml
   - type: Website
     url: https://opendata.comune.trento.it
   - type: Documentation
