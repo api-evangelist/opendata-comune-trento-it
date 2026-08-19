@@ -27,7 +27,7 @@ tags:
   - Italy
 created: '2026-06-07'
 modified: '2026-06-07'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 apis:
   - aid: opendata-comune-trento-it:catalog
     name: Trento Open Data CKAN Action API
